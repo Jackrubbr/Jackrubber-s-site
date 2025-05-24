@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Pixel Nes";
+    src: url("../font/Pixel_NES.woff");
+}
+
+@font-face {
+    font-family: "Perfect DOS VGA 437 Win";
+    src: url("../font/Perfect DOS VGA 437 Win.ttf");
+}
+
+@font-face {
+    font-family: "MS-UIGothic";
+    src: url("../font/MS-UIGothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "NEC_APC3";
+    src: url("../font/Web437_Nix8810_M16.woff") format(".woff");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NEC_APC3";
+    src: url("../font/Web437_NEC_APC3_8x16.woff") format(".woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "RussianGothic";
+    src: local("Arial");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0420-42FF;
+}
