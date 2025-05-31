@@ -1,14 +1,6 @@
 "use client"
 
-import { AppShell, Box, Center, Container, SimpleGrid, Skeleton, Grid, Flex} from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-
-
-import type { AppProps } from 'next/app';
-import { createTheme, MantineProvider } from '@mantine/core';
-import { useState } from 'react';
-
-import styles from './page.module.css'
+import { AppShell, Container, Flex} from '@mantine/core';
 
 
 export default function Demo() {

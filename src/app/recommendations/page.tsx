@@ -7,17 +7,8 @@ import imgPortal2 from '/src/imgs/Portal2.png';
 import imgDanganronpa from '/src/imgs/Danganronpa.png';
 import imgDanganronpa2 from '/src/imgs/Danganronpa2.png';
 import imgDanganronpa3 from '/src/imgs/Danganronpa3.png';
-
-
-
-import type { AppProps } from 'next/app';
-import { createTheme, MantineProvider } from '@mantine/core';
-import { ForwardRefExoticComponent, useEffect, useState } from 'react';
-
-import styles from './page.module.css'
-import { title } from 'process';
-
-import { menubar } from '/src/app/functions.tsx'
+import { useEffect, useState } from 'react';
+import { menubar } from '@/app/functions';
 
 const siteRecomendationSection = [
   {id:0,title: "Recomendations section", text: "Some recommendation about stuff I like", titleCoeff: 1},
