@@ -6,7 +6,7 @@ import { menubar } from '@/app/functions';
 
 
 const siteAboutMeSection = [
-  {title: "About Me", text: "questo sito non e' da farsi", titleCoeff: 1}
+  {title: "About Me", text: "Giacomo Bellini \n student", titleCoeff: 1}
 ];
 
 export default function Demo() {
