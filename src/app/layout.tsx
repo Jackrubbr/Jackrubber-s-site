@@ -7,8 +7,8 @@ import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from '@mantine/c
 import './global.css';
 
 export const metadata = {
-  title: 'My Mantine app',
-  description: 'I have followed setup instructions carefully',
+  title: 'Jackrubber site',
+  description: 'boh',
 };
 
 export default function RootLayout({
