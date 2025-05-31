@@ -10,7 +10,7 @@ const siteAboutMeSection = [
 ];
 
 export default function Demo() {
-  const [home, setHome] = useState([<></>]);
+  const [home, setHome] = useState<React.JSX.Element[]>([]);
 
   const setAboutMeState = () => {
     setHome(siteAboutMeSection.map(el => {

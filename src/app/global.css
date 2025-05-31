@@ -32,3 +32,37 @@
     font-style: normal;
     unicode-range: U+0420-42FF;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: "MS-UIGothic";
+    color: white;
+    background-color: black;
+}
+
+h1{
+    font-family: "Pixel Nes";
+    font-size: 20px;
+    color: #fab005;
+}
+
+p{
+    font-size: 18px;
+}
+
+Link {
+    color: white;
+    text-decoration: none;
+}
+
+Link:hover{
+    text-decoration: underline;
+}
